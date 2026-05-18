@@ -2,6 +2,7 @@
   "name": "abdul-arham-khan-portfolio",
   "version": "0.1.0",
   "private": true,
+  "engines": { "node": "18.x" },
   "scripts": {
     "clean": "rm -rf .next node_modules/.cache",
     "dev": "next dev",
