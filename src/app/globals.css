@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --apple-bg: #fbfbfd;
+  --apple-section: #f5f5f7;
+  --apple-ink: #1d1d1f;
+  --apple-muted: #86868b;
+  --apple-subtle: #a1a1a6;
+  --apple-border: #d2d2d7;
+  --apple-line: rgb(0 0 0 / 0.06);
+  --apple-card: #ffffff;
+  --apple-header: rgb(255 255 255 / 0.72);
+  --apple-footer: #ffffff;
+  --apple-blue: #0071e3;
+  --apple-blue-hover: #0077ed;
+  --apple-shadow-sm: 0 1px 3px rgb(0 0 0 / 0.06), 0 8px 24px rgb(0 0 0 / 0.04);
+  --apple-selection-bg: color-mix(in oklab, #0071e3 18%, transparent);
+  --apple-selection-fg: #1d1d1f;
+}
+
+html.dark {
+  color-scheme: dark;
+  --apple-bg: #000000;
+  --apple-section: #1c1c1e;
+  --apple-ink: #f5f5f7;
+  --apple-muted: #a1a1a6;
+  --apple-subtle: #8e8e93;
+  --apple-border: #48484a;
+  --apple-line: rgb(255 255 255 / 0.1);
+  --apple-card: #1c1c1e;
+  --apple-header: rgb(28 28 30 / 0.72);
+  --apple-footer: #000000;
+  --apple-blue: #0a84ff;
+  --apple-blue-hover: #409cff;
+  --apple-shadow-sm: 0 1px 3px rgb(0 0 0 / 0.45), 0 8px 28px rgb(0 0 0 / 0.35);
+  --apple-selection-bg: color-mix(in oklab, #0a84ff 32%, transparent);
+  --apple-selection-fg: #f5f5f7;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+@layer base {
+  body {
+    @apply bg-apple-bg font-sans antialiased text-apple-ink;
+  }
+}
+
+::selection {
+  background: var(--apple-selection-bg);
+  color: var(--apple-selection-fg);
+}
