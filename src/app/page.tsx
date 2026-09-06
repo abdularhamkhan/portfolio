@@ -13,7 +13,7 @@ const skillsets = [
   },
   {
     label: "Backend",
-    items: ["FASTAPI", "Flask", "NodeJS", "Firebase","Supabase", "Convex",  ],
+    items: ["FASTAPI", "Flask", "NodeJS", "Firebase", "Supabase", "Convex",],
   },
   {
     label: "Database",
@@ -115,7 +115,7 @@ export default function Home() {
           <div className="flex flex-wrap gap-3 md:gap-4">
             <a
               className="inline-flex min-h-[44px] items-center justify-center rounded-full bg-apple-blue px-7 text-[15px] font-medium text-white transition-colors hover:bg-apple-blue-hover"
-              href="/resume.pdf"
+              href="https://drive.google.com/drive/folders/1RZp6oF_AN_49H6d0tOAkBErd8-LDAI_Y?usp=sharing"
             >
               Download CV
             </a>
@@ -238,7 +238,7 @@ export default function Home() {
                 <p className="text-[22px] font-semibold tracking-[-0.02em] text-apple-ink md:text-[24px]">
                   Quishub
                 </p>
-                <p className="text-[13px] text-apple-muted">Apr 2026 — Present</p>
+                <p className="text-[13px] text-apple-muted">Jan 2026 — Present</p>
               </div>
               <p className="mt-2 text-[15px] font-medium text-apple-ink">
                 AI-Backend Engineer · Clinical history & compliance · Part-time
@@ -291,7 +291,7 @@ export default function Home() {
                 <p className="text-[22px] font-semibold tracking-[-0.02em] text-apple-ink md:text-[24px]">
                   Nybbl Ventures
                 </p>
-                <p className="text-[13px] text-apple-muted">Feb 2026 — Present</p>
+                <p className="text-[13px] text-apple-muted">Jan 2026 — Present</p>
               </div>
               <p className="mt-2 text-[15px] font-medium text-apple-ink">
                 AI/ML Engineer · Conversational AI and voice systems
@@ -301,22 +301,42 @@ export default function Home() {
                 <li className="flex gap-3">
                   <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-apple-border" aria-hidden />
                   <span>
-                    Engineer low-latency, production-grade AI voice agents for real-time patient
-                    workflows.
+                    Engineer AI voice agents and deploy production-grade systems optimized for low-latency, real-time interactions.
                   </span>
                 </li>
                 <li className="flex gap-3">
                   <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-apple-border" aria-hidden />
                   <span>
-                    Implement barge-in handling, ASR/IVR optimizations, and resilient retry/backoff
-                    flows.
+                    Design and implement advanced barge-in handling and ASR/IVR optimizations to manage high-volume patient
+                    scheduling.
                   </span>
                 </li>
                 <li className="flex gap-3">
                   <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-apple-border" aria-hidden />
                   <span>
-                    Integrate Twilio, Vonage, Pipecat, Retell, and streaming STT/TTS with FastAPI
-                    services.
+                    Develop FastAPI endpoints for telephony workﬂows and integrate streaming STT/TTS (Deepgram, Cartesia) with
+                    LLM responses.
+                  </span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-apple-border" aria-hidden />
+                  <span>
+                    ntegrate telephony platforms (Twilio, Vonage, Pipecat, Retell) and manage secure deployments using Docker and
+                    CI/CD on VPS.
+                  </span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-apple-border" aria-hidden />
+                  <span>
+                    Optimize audio pipelines, reduce latency, and improve recognition accuracy with retry/backoﬀ and graceful
+                    degradation strategies.
+                  </span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-apple-border" aria-hidden />
+                  <span>
+                    Collaborate with product and backend teams to design scalable APIs and monitoring for uptime, latency, and
+                    call-quality metrics.
                   </span>
                 </li>
               </ul>
@@ -326,7 +346,7 @@ export default function Home() {
                 <p className="text-[22px] font-semibold tracking-[-0.02em] text-apple-ink md:text-[24px]">
                   vCERN LLC
                 </p>
-                <p className="text-[13px] text-apple-muted">Mar 2025 — Present</p>
+                <p className="text-[13px] text-apple-muted">Nov 2024 — Dec 2025</p>
               </div>
               <p className="mt-2 text-[15px] font-medium text-apple-ink">
                 Backend Engineer (Contract) · AI-first Software Engineer (Part-time)
@@ -388,7 +408,7 @@ export default function Home() {
             Work
           </p>
           <h2 className="mb-12 text-[40px] font-semibold leading-tight tracking-[-0.03em] text-apple-ink md:text-[48px]">
-             Projects
+            Projects
           </h2>
           <div className="space-y-5">
             {projects.map((p) => (
@@ -408,7 +428,7 @@ export default function Home() {
               </article>
             ))}
           </div>
-        </section>
+        </section>Quishub
 
         {/* Trusted by */}
         <section className="mb-24 md:mb-32">

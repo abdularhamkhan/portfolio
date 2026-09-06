@@ -35,7 +35,7 @@ export function SiteHeader() {
         <div className="flex shrink-0 items-center gap-2">
           <ThemeToggle />
           <a
-            href="/resume.pdf"
+            href="https://drive.google.com/drive/folders/1RZp6oF_AN_49H6d0tOAkBErd8-LDAI_Y?usp=sharing"
             className="rounded-full bg-apple-blue px-4 py-1.5 text-[12px] font-medium text-white transition-colors hover:bg-apple-blue-hover md:px-5"
           >
             Résumé
